@@ -1,0 +1,27 @@
+@import "./custom_colors";
+
+.notesclass {
+  height: calc(100% - 70px);
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.bm-menu {
+  background: $custom-grey;
+  color:#fff;
+  padding-top: 10px;
+}
+
+.list-item.is-active{
+  background-color: $custom-purple;
+}
+
+.notes-editor {
+  padding: 0;
+  height: calc(100% - 43px);
+  display: grid; //eu que botei
+}​
+.notes-editor .quill{
+  height: 100%;
+}
